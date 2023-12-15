@@ -4,6 +4,8 @@ This Python script is designed to perform speech emotion recognition using a dee
 
 1. **Data Loading and Visualization**: The script starts by loading the dataset, which consists of audio files and their corresponding emotion labels. It then visualizes the distribution of the labels and the waveforms and spectrograms of sample audio files for each emotion.
 
+**Link to the Dataset**: https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess
+
 2. **Feature Extraction**: The script extracts Mel-frequency cepstral coefficients (MFCCs) from the audio files. MFCCs are a type of spectral feature that are widely used in speech and audio processing.
 
 3. **Model Building and Training**: The script defines a deep learning model using Keras. The model is a recurrent neural network (RNN) with LSTM layers, followed by dense layers. The model is trained using the extracted MFCCs and the emotion labels.
