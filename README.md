@@ -16,4 +16,8 @@ This Python script is designed to perform speech emotion recognition using a dee
 
 This script requires several Python libraries, including pandas, numpy, seaborn, matplotlib, librosa, keras, and sklearn.
 
+**Steps to Run the code:**
+1) Unzip the dataset file
+2) Run the python script in the terminal using the python <scriptname>.py command
+
 NOTE: This project is just a proof of concept. It still needs a lot of refinement and fine-tuning and generally only works on female voices because of the dataset used.
